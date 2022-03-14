@@ -8,7 +8,7 @@ The code in this repository listen's its surrounding environment and  based on t
 
 any other words beside on and off is marked as noise. The device is in listning mode while the blue light on board is on. Once the voice is recorded the dsp block calculates the spectrogram of the voice data. The spectrogram is then infered through a TinyML model to classify the recorded sound. If the classifier detects the "On" sound the red led blinks, whereas, if the recorded sound was " off" the green led blinks. Beside these on board leds a digital pin "D2" of the device also gets high or low on "on" and "off" sounds respectively. whereas,  the voltage level stays same in case of noise
 
-                           https://user-images.githubusercontent.com/94599611/157850750-91dd55f0-a1ea-4a05-a44f-c9e8dca3d291.mp4
+https://user-images.githubusercontent.com/94599611/157850750-91dd55f0-a1ea-4a05-a44f-c9e8dca3d291.mp4
 
 . 
 
